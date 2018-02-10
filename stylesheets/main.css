@@ -11,6 +11,19 @@ body {
     line-height: 1.7;
     color: #eee;
 	background-color: rgba(60, 110, 190, 1);
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    color: rgb(60, 110, 190);
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+.navbar li a {
+    color:rgb(60, 110, 190);
+    text-decoration: none;
 }
 
 .header {
@@ -19,7 +32,7 @@ body {
         to bottom,
         rgba(60, 110, 190, 0.1),
         rgba(60, 110, 190, 1)),
-        url(assets/background-cron.jpg);
+        url(../assets/background-cron.jpg);
     background-size: cover;
     background-position: top;
     position: relative;
@@ -87,7 +100,7 @@ body {
 .logo-box {
     position: absolute;
     top: 85%;
-    left: 45%;
+    left: 46%;
 	animation: fadein 3s, moveDown 4s;
 }
 
@@ -106,4 +119,29 @@ span.footerText {
 .footer-logo {
 	height: 35px;
     margin: 0;
+}
+
+a.scroll-down {
+    color: #eee;
+    margin-left: 1%;
+}
+
+.about {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#about-title {
+    margin: 75px;
+    margin-right: 6%;
+}
+
+#about-body {
+    width: 45%;
+    margin-left: 26%;
+    /* margin-top: px; */
+}
+
+div#about-body p {
+    margin: 20px;
 }

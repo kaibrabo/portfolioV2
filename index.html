@@ -4,12 +4,35 @@
         <meta charset="utf-8">
         <title>Kainoa Brabo</title>
 
-        <link href="main.css" rel="stylesheet" />
-		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-
+        <link href="stylesheets/main.css" rel="stylesheet" />
+        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     </head>
     <body>
+
+
+
+        <!-- intro text & icons -->
         <header class="header">
+            <nav class="navbar">
+                    <ul>
+                        <li class="about-link">
+                            <a href="#about">about</a>
+                        </li>
+                        <li class="passion-link">
+                            <a href="#passion">passion</a>
+                        </li>
+                        <li class="experience-link">
+                            experience
+                        </li>
+                        <li class="work-link">
+                            work
+                        </li>
+                        <li class="contact-link">
+                            contact
+                        </li>
+                    </ul>
+            </nav>
+
             <div class="text-box">
                 <h1 class="heading-primary">
                     <span class="heading-primary-main">Kainoa</span>
@@ -17,33 +40,61 @@
                 </h1>
 
 				<span class="social-links">
-					<a href="https://www.github.com/kaibrabo">
-						<span class="fa fa-github"></span>
-					</a>
+                    <a href="mailto:kaibrabo@gmail.com">
+                        <span class="fas fa-envelope"></span>
+                    </a>
 
-					<a href="https://www.linkedin.com/in/kainoabrabo">
-						<span class="fa fa-linkedin"></span>
+                    <a href="https://www.linkedin.com/in/kainoabrabo">
+                        <span class="fab fa-linkedin"></span>
+                    </a>
+
+					<a href="https://www.github.com/kaibrabo">
+						<span class="fab fa-github"></span>
 					</a>
 
 					<a href="https://www.instagram.com/kai_onthereal">
-						<span  class="fa fa-instagram"></span>
+						<span  class="fab fa-instagram"></span>
 					</a>
 				</span>
+
             </div>
 
 			<!-- logo img -->
 			<div class="logo-box">
                 <img src="assets/kai_logo_white.png" class="logo" alt="logo"/>
+                <a href="#about" class="scroll-down">
+                    <span class="fas fa-angle-down fa-3x"></span>
+                </a>
             </div>
 
         </header>
 
+        <!-- about -->
+        <div class="about">
+            <div id="about-title">
+                <h2>Background</h2>
+            </div>
 
+            <div id="about-body">
+                <p>
+                    Born on an island in the Pacific, living on the coast of the golden state.
+                </p>
+                <p>
+                    I'm a Software Engineer specializing in Full Stack Web Development.  As a Ruby and Javascript engineer, I enjoy developing application that are scalable and efficient, while providing pixel-perfect user experiences.
+                </p>
+                <p>
+                    <b>When I am not in front of a keyboard</b> I ride mountain bikes in my backyard of Marin county and train Jiu Jitsu in the afternoons.  If I am not in California, I am either road-tripping or visiting family in Hawaii.
+                </p>
+            </div>
+        </div>
+
+        <!-- Made by Kai -->
         <div class="footer">
             <span class="footerText">made by </span>
             <a href="kaibrabo.com">
 				<img src="assets/kai_logo_white.png" class="footer-logo" />
 			</a>
         </div>
+
     </body>
 </html>
